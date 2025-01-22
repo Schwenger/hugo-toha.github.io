@@ -3,8 +3,9 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 5
+  weight: 4
   showOnNavbar: true
+  filter: false
   # Can optionally hide the title in sections
   # hideTitle: true
 
@@ -18,48 +19,69 @@ buttons:
   filter: "academic"
 - name: Hobby
   filter: "hobby"
+- name: Mobile
+  filter: "mobile"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
-
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
-
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
-
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
-
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
+- name: RustTyC
+  logo: /images/sections/projects/rusttyc.png
   role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+  # timeline: "March 2018 - Present"
+  url: https://github.com/Schwenger/RustTyC # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: RustTyC is a simple interface for translating type rules into rust and performs the type checking procedure to generate a type table.
+  tags: ["academic"]
+
+- name: Rust Saar
+  logo: /images/sections/projects/rustsaar.png
+  role: Co-Organizer
+  timeline: "Jun 2020 - May 2023"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://rust.saarland"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary:  "A meetup for people from Saarland and beyond who are interested in the programming language Rust that empowers everyone to build reliable and efficient software."
+  tags: ["hobby"]
+
+- name: Smart Home
+  role: User
+  # timeline: "Jun 2018 - Present"
+  summary: No better way to relax than tinkering on your smart home!
+  tags: ["hobby"]
+
+- name: Allegoria
+  logo: /images/sections/projects/allegoria.png
+  role: Owner
+  # timeline: "Jan 2017 - Nov 2017"
+  summary: |
+    A pet project of mine: a simple app that helps you study sign language. 
+    Enter vocabulary by positioning your phone, then state the word, sign it, repeat until done. 
+    When studying, enter how much time you want to spend and the app chooses an adequat curriculum.
+    Discontinued.
+  tags: ["hobby", "mobile"]
+
+- name: Lola Drives
+  logo: /images/sections/projects/loladrives.png
+  role: Researcher
+  # timeline: "Oct 2019 - Dec 2019"
+  # repo: https://github.com/kelseyhightower/nocode
+  url: "https://www.loladrives.app"
+  summary: |
+    LolaDrives is a mobile application developed by researchers at Saarland University that enables users to monitor real-time vehicle data through the on-board diagnostics system.
+  tags: ["academic", "mobile", "professional"]
+
+- name: RTLola
+  logo: /images/sections/projects/rtlola.png
+  role: Developer
+  timeline: "2019 - 2022"
+  url: "https://finkbeiner.groups.cispa.de/tools/rtlola"
+  summary: |
+    RTLola enables formal reasoning over autonomous systems. 
+    It is a stream-processing runtime system designed for real-time monitoring of complex data streams, enabling the verification and analysis of safety-critical systems.
+  tags: ["academic", "professional"]
+
+- name: e-invoice pro
+  role: Product Owner
+  timeline: "2024"
+  url: "https://insiders-technologies.com/en/p2p-automation/e-invoice/"
+  summary: e-invoice pro is a solution to send and process a variety of electronic invoice comfortably and reliably.
+  tags: ["professional"]

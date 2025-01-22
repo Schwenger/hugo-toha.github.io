@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Talks
+  id: accomplishments
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+
+# Your accomplishments
+accomplishments:
+
+- name: AI meets e-invoicing
+  timeline: "2024"
+  organization:
+    name: E-Rechnungsgipfel (E-Invoicing Summit)
+  courseOverview: AI is an integral part of traditional invoice processing.  While it seems obsoltet for e-invoices, it enables automating several manual processes formerly deemed impossible.
+ 
+- name: Monitoring Cyber-Physical Systems with RTLola
+  timeline: "2021"
+  organization:
+    name: Volocopter GmbH, Bruchsal, Germany
+    url: https://www.volocopter.com/en
+  courseOverview: As part of a collaboration between Saarland University, Volocopter GmbH, and the German Aerospace Center, funded by the Federal Ministry for Economic Affairs and Climate Action.
+
+- name: Monitoring Systems that Work Most of the Time
+  timeline: "2019"
+  organization:
+    name: Toyota Research Institute, Boston, USA
+    url: https://www.tri.global
+  courseOverview: Invited talk for an open exchange regarding application of recent research in practice.
+
+- name: Let's not Trust Experience Blindly
+  timeline: "2019"
+  organization:
+    name: Yale University
+  courseOverview: Invited talk for international research collaboration.
+

@@ -5,7 +5,7 @@ section:
   enable: true
   weight: 2
   showOnNavbar: true
-  filter: true
+  filter: false
   # Can optionally hide the title in sections
   # hideTitle: true
 
@@ -25,47 +25,36 @@ buttons:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Rust
+  logo: /images/sections/skills/rust.png
+  summary: "Rust will always be in the center of my heart.  While developing the research prototype for my PhD thesis in rust, I also raised awareness for its benefits with a successful Meetup in Saarland."
+  # categories: ["container"]
+  url: "https://www.rust-lang.org"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: Formal Methods
+  logo: /images/sections/skills/formal.png
+  summary: "Somewhat juxtaposing the current hype for AI, formal methods are conservative, progress slowly, and frankly a tad boring. At the same time they are crucial to preserve safety whenever necessary."
+  # categories: ["basic", "language"]
+  # url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: Project Mangement
+  logo: /images/sections/skills/pm.png
+  summary: "Let's fight the nasty stigma of PMs solely responsible for coercing an unproductive amount of people into overly frequent status meetings. I vote for PMs with a solid background in the subject matter."
   categories: ["others"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+- name: AI
+  logo: /images/sections/skills/ai.png
+  summary: "I focus on bridging the gap between the technical implementation and practical application. Envisioning use cases of AI is easy, understanding when this is a good idea is not."
+  # categories: ["container"]
+  # url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: Agile Software Development
+  logo: /images/sections/skills/scrum.png
+  summary: "Having worked as an agile developer, product owner, and -- albeit only briefly -- scrum master, I know the ins and outs of agile development. A true challgende is how to amalgamate it with waterfall in conservative domains."
+  # categories: ["basic"]
+  # url: "https://prometheus.io/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
-
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
-
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: Safe Autonomy
+  logo: /images/sections/skills/safety.png
+  summary: "The overarching topic of my PhD research. I consider it one of the most pressing gatekeepers to next gen mobility, though it often flies under the radar."
+  # categories: ["others"]
